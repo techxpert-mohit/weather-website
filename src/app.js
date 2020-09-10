@@ -39,7 +39,7 @@ app.get('/about',(req, res) => {
 
 app.get('/help',(req, res) => {
     res.render('help', {
-        helpText: 'This is some helpful text.',
+        helpText: 'Please refer github link github.com/techxpert-mohit/weather-website for the source code!!!',
         title: 'Help',
         name: 'Mohit Vashishtha'
     })
